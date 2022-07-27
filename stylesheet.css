@@ -1,10 +1,19 @@
-body {
-    text-align: center;
-    font-family: Helvetica;
+* {
+    margin: 0;
 }
 
-img {
-    width: 50%;
-    display: block;
-    margin: auto;
+body {
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.img-div {
+    margin: 20px;
+    display: flex;
+}
+
+.tribute-info p {
+    color: blue;
+    background: black;
+    margin-left: 20px;
 }
